@@ -35,7 +35,7 @@ export const windows95Skin = new Skin({
 	folderIcons: {
 		generic: "/assets/skins/windows95/apps/file-explorer/folder.svg",
 	},
-	defaultTheme: Theme.Light,
+	defaultTheme: Theme.Squadron,
 	loadStyleSheet: () => {
 		void import("../../styles/skins/windows95.css");
 	},

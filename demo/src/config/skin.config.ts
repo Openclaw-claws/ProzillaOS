@@ -1,8 +1,9 @@
-import { Skin } from "@prozilla-os/skins";
+import { Skin, Theme } from "@prozilla-os/skins";
 import { removeBaseUrl } from "prozilla-os";
 
 const defaultSkin = new Skin({
-	defaultWallpaper: "/assets/wallpapers/abstract-mesh-gradient-orange-red-purple.png",
+	defaultWallpaper: "", // No wallpaper - use Squadron theme background
+	defaultTheme: Theme.Squadron,
 });
 
 function cleanUrls(skin: Skin) {

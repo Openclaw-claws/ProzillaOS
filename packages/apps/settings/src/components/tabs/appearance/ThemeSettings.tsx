@@ -3,7 +3,7 @@ import { SettingsManager, useIntSetting } from "@prozilla-os/core";
 import { Theme } from "@prozilla-os/skins";
 
 export function ThemeSettings() {
-	const [theme, setTheme] = useIntSetting(SettingsManager.VIRTUAL_PATHS.theme, "theme", Theme.Dark);
+	const [theme, setTheme] = useIntSetting(SettingsManager.VIRTUAL_PATHS.theme, "theme", Theme.Squadron);
 
 	return <div className={styles.Option}>
 		<p className={styles.Label}>Theme</p>

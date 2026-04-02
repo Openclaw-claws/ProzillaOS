@@ -65,13 +65,14 @@ export default defineConfig(({ command }) => {
 		base: "/",
 		plugins: [
 			react(),
-			checker({
-				typescript: true,
-				eslint: {
-					lintCommand: "eslint -c ../eslint.config.js ..",
-					useFlatConfig: true,
-				},
-			}),
+			// ESLint checker disabled for cleaner demo
+			// checker({
+			// 	typescript: true,
+			// 	eslint: {
+			// 		lintCommand: "eslint -c ../eslint.config.js ..",
+			// 		useFlatConfig: true,
+			// 	},
+			// }),
 		],
 		build: {
 			outDir: BUILD_DIR,

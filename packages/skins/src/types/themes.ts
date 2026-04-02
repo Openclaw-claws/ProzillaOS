@@ -5,4 +5,5 @@ export enum Theme {
 	Mango = 3,
 	Aqua = 4,
 	Grape = 5,
+	Squadron = 6,
 }

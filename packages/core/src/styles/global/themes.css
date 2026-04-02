@@ -65,3 +65,21 @@
 	--taskbar-color: var(--purple-2);
 	--taskbar-menu-color: var(--purple-1);
 }
+
+.Squadron-theme {
+	--foreground-color-0: var(--white-0);
+	--foreground-color-1: var(--emerald-0);
+	--foreground-color-2: var(--cyan-bright);
+
+	--background-color-0: var(--navy-1);
+	--background-color-1: var(--navy-0);
+	--background-color-2: var(--navy-1);
+	--background-color-3: var(--navy-2);
+	--background-color-4: var(--navy-2);
+
+	--taskbar-color: var(--navy-2);
+	--taskbar-menu-color: var(--navy-1);
+	--taskbar-button-hover-color: rgba(16, 185, 129, 15%);
+	--accent-color: var(--emerald-1);
+	--highlight-color: var(--cyan-bright);
+}
