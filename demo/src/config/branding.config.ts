@@ -1,5 +1,5 @@
-export const NAME = "ProzillaOS";
-export const TAG_LINE = "Web-based Operating System";
+export const NAME = "BotSquadron";
+export const TAG_LINE = "AI Agent Command Center";
 
 export const ASCII_LOGO = `
               :.           
